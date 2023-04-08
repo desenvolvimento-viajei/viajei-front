@@ -1,5 +1,5 @@
 {
-  "name": "next-app",
+  "name": "viajei-front",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,16 +9,15 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "next": "12.2.5",
+    "@types/node": "18.15.11",
+    "@types/react": "18.0.33",
+    "@types/react-dom": "18.0.11",
+    "autoprefixer": "10.4.14",
+    "next": "13.3.0",
+    "postcss": "8.4.21",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
-  },
-  "devDependencies": {
-    "@types/node": "18.7.14",
-    "@types/react": "18.0.18",
-    "@types/react-dom": "18.0.6",
-    "eslint": "8.23.0",
-    "eslint-config-next": "12.2.5",
-    "typescript": "4.8.2"
+    "react-dom": "18.2.0",
+    "tailwindcss": "3.3.1",
+    "typescript": "5.0.4"
   }
 }
